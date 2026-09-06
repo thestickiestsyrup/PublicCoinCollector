@@ -1,0 +1,142 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>endobj
+4 0 obj<< /Length 3316 >>stream
+BT
+/F1 18 Tf
+1 0 0 1 48 736 Tm
+(Coin Tray - Project Brief) Tj
+/F1 9 Tf
+1 0 0 1 48 712 Tm
+(Local-first coin identification & pricing) Tj
+/F1 9 Tf
+1 0 0 1 48 698 Tm
+(Desktop + Android companion . privacy-preserving numismatic workflow) Tj
+/F1 12 Tf
+1 0 0 1 48 674 Tm
+(Problem) Tj
+/F1 9 Tf
+1 0 0 1 48 656 Tm
+(Sorting a mixed box of coins needs a quick identity and a rough market range without uploading) Tj
+/F1 9 Tf
+1 0 0 1 48 644 Tm
+(every photo to a cloud AI service or paying per-token vision APIs.) Tj
+/F1 12 Tf
+1 0 0 1 48 620 Tm
+(Solution) Tj
+/F1 9 Tf
+1 0 0 1 48 602 Tm
+(Coin Tray runs Ollama vision models on your PC, lets you correct fields while holding the coin,) Tj
+/F1 9 Tf
+1 0 0 1 48 590 Tm
+(stamps structured catalog baggie IDs, then prices from an allowlist of guides and marketplaces) Tj
+/F1 9 Tf
+1 0 0 1 48 578 Tm
+(with citations. An optional Android CameraX app captures on the phone and talks to the PC over) Tj
+/F1 9 Tf
+1 0 0 1 48 566 Tm
+(home Wi?Fi.) Tj
+/F1 12 Tf
+1 0 0 1 48 542 Tm
+(Architecture \(one line\)) Tj
+/F1 9 Tf
+1 0 0 1 48 524 Tm
+(Webcam / Phone camera ? PC engine \(Ollama VL\) ? Edit + Catalog ID ? Allowlisted pricing ? Tray) Tj
+/F1 9 Tf
+1 0 0 1 48 512 Tm
+(\(JSON / CSV\)) Tj
+/F1 9 Tf
+1 0 0 1 48 498 Tm
+(Android is a thin client: http://LAN:8722 + X-Coin-Tray-Token. Ollama never leaves the PC.) Tj
+/F1 12 Tf
+1 0 0 1 48 474 Tm
+(Resume bullets) Tj
+/F1 9 Tf
+1 0 0 1 48 456 Tm
+(* Built a local-first coin sorting system with on-machine vision ID \(no cloud AI billing\).) Tj
+/F1 9 Tf
+1 0 0 1 48 442 Tm
+(* Implemented allowlisted live pricing \(guides, auctions, marketplaces\) with IQR ranges, sold) Tj
+/F1 9 Tf
+1 0 0 1 48 430 Tm
+(vs asking, and source citations.) Tj
+/F1 9 Tf
+1 0 0 1 48 416 Tm
+(* Designed catalog baggie IDs \(`CA-0007 . U . 1964 25c Ag`\) plus disposition workflow \(Keep /) Tj
+/F1 9 Tf
+1 0 0 1 48 404 Tm
+(Sell / Check / Face\).) Tj
+/F1 9 Tf
+1 0 0 1 48 390 Tm
+(* Shipped a Kotlin / Jetpack Compose / CameraX Android companion over a LAN HTTP API.) Tj
+/F1 9 Tf
+1 0 0 1 48 376 Tm
+(* Hardened the companion path for home use: header-only token auth, no internet exposure,) Tj
+/F1 9 Tf
+1 0 0 1 48 364 Tm
+(collection data kept out of git.) Tj
+/F1 12 Tf
+1 0 0 1 48 340 Tm
+(Stack) Tj
+/F1 9 Tf
+1 0 0 1 48 322 Tm
+(Desktop - Python, Tk, OpenCV) Tj
+/F1 9 Tf
+1 0 0 1 48 308 Tm
+(Engine - `coin_engine.py`, Ollama VL + text) Tj
+/F1 9 Tf
+1 0 0 1 48 294 Tm
+(Phone API - stdlib `ThreadingHTTPServer`) Tj
+/F1 9 Tf
+1 0 0 1 48 280 Tm
+(Android - Kotlin, Compose, CameraX) Tj
+/F1 12 Tf
+1 0 0 1 48 256 Tm
+(Requirements) Tj
+/F1 9 Tf
+1 0 0 1 48 238 Tm
+(* Ollama + a vision model \(e.g. `qwen3-vl:8b` or `gemma3:4b`\)) Tj
+/F1 9 Tf
+1 0 0 1 48 224 Tm
+(* Python 3 + `pip install -r requirements.txt`) Tj
+/F1 9 Tf
+1 0 0 1 48 210 Tm
+(* Optional: Android Studio \(JDK 17/21\), phone on same Wi?Fi) Tj
+/F1 12 Tf
+1 0 0 1 48 186 Tm
+(Status) Tj
+/F1 9 Tf
+1 0 0 1 48 168 Tm
+(Personal / portfolio project. Estimates are comps, not appraisals. Not a substitute for) Tj
+/F1 9 Tf
+1 0 0 1 48 156 Tm
+(professional grading.) Tj
+/F1 12 Tf
+1 0 0 1 48 132 Tm
+(Links) Tj
+/F1 9 Tf
+1 0 0 1 48 114 Tm
+(* Repository: https://github.com/thestickiestsyrup/PublicCoinCollector) Tj
+/F1 9 Tf
+1 0 0 1 48 100 Tm
+(* Docs: `README.md`, `docs/ARCHITECTURE.md`, `docs/OPERATOR.md`) Tj
+/F1 9 Tf
+1 0 0 1 48 86 Tm
+(* License: MIT) Tj
+ET
+endstream
+endobj
+5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000235 00000 n 
+0000003601 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+3669
+%%EOF

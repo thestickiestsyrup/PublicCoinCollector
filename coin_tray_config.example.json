@@ -1,0 +1,22 @@
+{
+  "model": "qwen3-vl:8b",
+  "sources": [
+    "pcgs.com",
+    "ngccoin.com",
+    "usacoinbook.com",
+    "greatcollections.com",
+    "ha.com",
+    "stacksbowers.com",
+    "numista.com",
+    "coinvaluechecker.com",
+    "coinstudy.com",
+    "ma-shops.com",
+    "catawiki.com",
+    "delcampe.net",
+    "coinarchives.com",
+    "ebay.com",
+    "ebay.co.uk",
+    "ebay.de",
+    "etsy.com"
+  ]
+}

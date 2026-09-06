@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.CoinTray" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0F2E39</item>
+        <item name="android:navigationBarColor">#0F2E39</item>
+        <item name="android:windowBackground">#1B4A5A</item>
+    </style>
+</resources>
